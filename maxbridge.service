@@ -1,0 +1,13 @@
+[Unit]
+Description=MAX to Telegram Bridge
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/max
+ExecStart=/root/max/venv/bin/python /root/max/max_to_tg_bridge.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
