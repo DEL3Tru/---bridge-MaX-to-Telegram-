@@ -16,7 +16,6 @@ Bridge for forwarding messages from MAX messenger to Telegram channel with subje
 ```bash
 git clone https://github.com/DEL3Tru/
 ---bridge-MaX-to-Telegram-
-cd max-tg-bridge
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
